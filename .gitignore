@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases & logs (auto-generated at runtime)
+data/checkpoints.sqlite*
+data/chroma_db/
+data/logs/*.jsonl
+data/conversations/
+
+# OS specific
+.DS_Store
+Thumbs.db
+.env
+.venv
+env/
+venv/
